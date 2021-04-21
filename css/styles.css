@@ -1,0 +1,55 @@
+body {
+  background: url("../images/background.jpg");
+  background-attachment: fixed; }
+  body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 50%; }
+  body h1 {
+    color: #cf9c27;
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 10px; }
+  body h2 {
+    color: #167833;
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    font-size: 1.8em;
+    text-align: center; }
+  body p {
+    color: black;
+    font-family: Baskerville, serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    text-align: center; }
+  body em {
+    color: #d4af37; }
+  body h3 {
+    color: #167833;
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.6em;
+    text-align: left;
+    padding-left: 20px; }
+  body * {
+    box-sizing: border-box; }
+  body .column {
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 300px; }
+  body .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body li {
+    color: #3d3d3d;
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    font-size: .9em; }

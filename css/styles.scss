@@ -1,7 +1,80 @@
 body {
-	font-family: sans-serif;
+
+	background: url("../images/background.jpg");
+	background-attachment: fixed;
 
 	img {
-		width: 100%;
-	}
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			max-width: 50%
+		}
+
+		h1 {
+	  color: rgb(207,156,39);
+		font-family: Futura, sans-serif;
+		font-weight: lighter;
+		font-size: 2.5em;
+		text-align: center;
+		padding-top: 10px
+		}
+
+		h2 {
+		color: rgb(22,120,51);
+		font-family: Futura, sans-serif;
+		font-weight: lighter;
+		font-size: 1.8em;
+		text-align: center;
+		}
+
+		p {
+		color: rgb(0,0,0);
+		font-family: Baskerville, serif;
+		font-weight: lighter;
+		font-size: 1.2em;
+		text-align: center;
+		}
+
+		em {
+		color: rgb(212, 175, 55);
+		}
+
+		h3 {
+		color: rgb(22,120,51);
+		font-family: Baskerville, serif;
+		font-style: italic;
+		font-weight: lighter;
+		font-size: 1.6em;
+		text-align: left;
+		padding-left: 20px;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+			.column {
+			  float: left;
+			  width: 50%;
+			  padding-left: 50px;
+				padding-right: 50px;
+			  height: 300px;
+			}
+
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+		li{
+		color: rgb(61,61,61);
+		font-family: Futura, sans-serif;
+		font-weight: lighter;
+		font-size: .9em;
+		}
+
+
+
 }
